@@ -1,0 +1,1199 @@
+2019-04-22 12:02:47.014  INFO 7908 --- [main] com.cit.micro.logger.LoggerApplication   : Starting LoggerApplication on LAPTOP-0UD7RQSK with PID 7908 (C:\Users\cjtra\IdeaProjects\logger\target\classes started by cjtra in C:\Users\cjtra\IdeaProjects\logger)
+2019-04-22 12:02:47.026  INFO 7908 --- [main] com.cit.micro.logger.LoggerApplication   : No active profile set, falling back to default profiles: default
+2019-04-22 12:02:49.383  INFO 7908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-22 12:02:49.450  INFO 7908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-22 12:02:49.450  INFO 7908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 12:02:49.789  INFO 7908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-22 12:02:49.789  INFO 7908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2694 ms
+2019-04-22 12:02:56.163  INFO 7908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 12:02:56.908  INFO 7908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-22 12:02:56.962  INFO 7908 --- [main] com.cit.micro.logger.LoggerApplication   : Started LoggerApplication in 10.717 seconds (JVM running for 13.923)
+2019-04-22 12:03:01.445  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 12:03:04.886  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 12:03:04.974  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: Analysis Service now running
+2019-04-22 12:03:16.021  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 12:03:16.022  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:03:32.744  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:03:32.803  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:03:32.987  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:03:35.442  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:03:35.455  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:03:35.479  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:03:36.551  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:03:36.560  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:03:36.586  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:03:38.599  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:03:38.612  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:03:38.639  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:04:13.170  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 12:04:13.170  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:04:17.041  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:04:17.058  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:04:17.081  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:04:19.175  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:04:19.184  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:04:19.206  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:04:20.476  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:04:20.485  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:04:20.507  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:04:49.017  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 12:04:49.017  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:04:57.937  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:04:57.951  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:04:57.974  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:01.010  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:05:01.020  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:01.041  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:02.385  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:05:02.394  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:02.415  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:04.456  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:05:04.465  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:04.486  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:06.344  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:05:06.353  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:06.378  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:15.124  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:05:15.132  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:15.154  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:17.330  INFO 7908 --- [grpc-default-executor-1] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:05:17.337  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:05:17.356  INFO 7908 --- [grpc-default-executor-0] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:06:37.933  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:06:37.941  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:06:37.963  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:06:39.669  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:06:39.678  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:06:39.697  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:32.897  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:07:32.898  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 12:07:44.516  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:07:44.528  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:44.550  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:49.083  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:07:49.093  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:49.111  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:51.292  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:07:51.299  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:51.316  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:52.970  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:07:52.979  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:53.001  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:54.025  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:07:54.034  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:54.052  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:54.848  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:07:54.855  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:54.870  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:57.581  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:07:57.588  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:07:57.604  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:08:04.367  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:08:04.377  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:08:04.392  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:08:18.494  INFO 7908 --- [grpc-default-executor-2] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:08:18.501  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:08:18.519  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:08:20.298  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:08:20.304  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:08:20.320  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:08:22.578  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:08:22.586  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:08:22.602  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:08:43.660  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:08:43.667  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:08:43.682  INFO 7908 --- [grpc-default-executor-3] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:13:46.843  INFO 7908 --- [grpc-default-executor-5] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:13:46.843  INFO 7908 --- [grpc-default-executor-4] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 12:13:49.264  INFO 7908 --- [grpc-default-executor-4] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:13:49.276  INFO 7908 --- [grpc-default-executor-4] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:13:49.297  INFO 7908 --- [grpc-default-executor-4] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:26:14.176  INFO 7908 --- [grpc-default-executor-6] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 12:26:14.176  INFO 7908 --- [grpc-default-executor-7] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:26:14.176  INFO 7908 --- [grpc-default-executor-8] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:26:19.427  INFO 7908 --- [grpc-default-executor-8] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:26:19.440  INFO 7908 --- [grpc-default-executor-8] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:26:19.459  INFO 7908 --- [grpc-default-executor-8] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:26:22.316  INFO 7908 --- [grpc-default-executor-8] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:27:30.647  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:27:30.656  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:27:30.679  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:27:31.394  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:27:33.523  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:27:34.002  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:27:34.010  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:27:34.028  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:27:35.003  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:27:35.009  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:27:35.027  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:27:35.965  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:27:35.971  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:27:35.984  INFO 7908 --- [grpc-default-executor-9] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:46.460  INFO 7908 --- [grpc-default-executor-11] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:28:46.461  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:28:46.460  INFO 7908 --- [grpc-default-executor-10] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 12:28:49.530  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:28:49.541  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:49.559  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:50.967  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:28:50.974  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:50.990  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:53.632  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:28:53.638  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:53.655  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:54.990  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:28:54.998  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:55.012  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:56.277  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:28:56.283  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:56.297  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:57.980  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:28:59.199  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:28:59.205  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:28:59.218  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:29:00.208  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:29:00.214  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:29:00.231  INFO 7908 --- [grpc-default-executor-12] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:30:12.122  INFO 7908 --- [grpc-default-executor-13] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:33:27.813  INFO 7908 --- [grpc-default-executor-15] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:33:27.815  INFO 7908 --- [grpc-default-executor-16] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:33:27.812  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 12:33:32.542  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:33:32.598  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting UID
+2019-04-22 12:34:18.653  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:34:18.664  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:18.685  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:21.295  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:34:21.303  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:21.320  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:22.050  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:34:22.062  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting UID
+2019-04-22 12:34:23.591  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:34:23.601  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting UID
+2019-04-22 12:34:47.208  INFO 7908 --- [grpc-default-executor-14] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 12:34:47.209  INFO 7908 --- [grpc-default-executor-17] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:34:47.210  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 12:34:49.739  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:34:49.747  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:49.761  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:50.246  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:34:50.258  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting UID
+2019-04-22 12:34:51.314  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:34:51.323  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting UID
+2019-04-22 12:34:51.756  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:34:51.761  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:51.774  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:52.786  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:34:52.791  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:52.807  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:53.312  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:34:53.322  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting UID
+2019-04-22 12:34:54.068  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:34:54.077  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting UID
+2019-04-22 12:34:54.436  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:34:54.444  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:54.458  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:55.558  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:34:55.566  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting UID
+2019-04-22 12:34:56.245  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:34:56.252  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:56.271  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:57.769  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:34:57.778  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting UID
+2019-04-22 12:34:58.998  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 12:34:59.011  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting UID
+2019-04-22 12:34:59.431  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 12:34:59.437  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 12:34:59.452  INFO 7908 --- [grpc-default-executor-18] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:14:52.484  INFO 7908 --- [grpc-default-executor-19] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 13:15:21.920  INFO 7908 --- [grpc-default-executor-19] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 13:15:21.922  INFO 7908 --- [grpc-default-executor-21] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 13:15:21.921  INFO 7908 --- [grpc-default-executor-20] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 13:15:27.229  INFO 7908 --- [grpc-default-executor-20] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:15:27.283  INFO 7908 --- [grpc-default-executor-20] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:15:27.331  INFO 7908 --- [grpc-default-executor-20] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:18:57.655  INFO 7908 --- [grpc-default-executor-22] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 13:18:57.656  INFO 7908 --- [grpc-default-executor-24] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 13:18:57.657  INFO 7908 --- [grpc-default-executor-23] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 13:19:02.224  INFO 7908 --- [grpc-default-executor-23] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:19:02.241  INFO 7908 --- [grpc-default-executor-23] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:19:02.266  INFO 7908 --- [grpc-default-executor-23] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:06.244  INFO 7908 --- [grpc-default-executor-25] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 13:21:06.245  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 13:21:06.245  INFO 7908 --- [grpc-default-executor-26] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 13:21:09.635  INFO 7908 --- [grpc-default-executor-26] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:21:09.651  INFO 7908 --- [grpc-default-executor-26] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:21:09.674  INFO 7908 --- [grpc-default-executor-26] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:23.549  INFO 7908 --- [grpc-default-executor-25] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 13:21:23.549  INFO 7908 --- [grpc-default-executor-26] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 13:21:23.550  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 13:21:38.150  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:21:38.163  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:21:38.186  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:40.515  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:21:40.533  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:40.549  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:41.298  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:21:41.310  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:21:41.329  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:42.957  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:21:42.964  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:21:42.980  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:43.452  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:21:43.458  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:43.474  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:46.007  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:21:46.015  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:21:46.032  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:48.397  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:21:48.403  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:48.418  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:49.689  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:21:49.695  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:49.709  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:50.280  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:21:50.289  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:21:50.307  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:52.976  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:21:52.981  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:52.996  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:53.546  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:21:53.554  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:21:53.571  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:54.473  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:21:54.479  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:21:54.500  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:55.172  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:21:55.179  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:55.195  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:55.920  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:21:55.927  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:21:55.943  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:21:56.842  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:21:56.851  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:21:56.868  INFO 7908 --- [grpc-default-executor-27] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:30.202  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:26:30.208  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:30.221  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:30.720  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:26:30.729  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:26:30.741  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:32.325  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:26:32.330  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:32.340  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:33.326  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:26:33.330  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:33.345  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:34.223  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:26:34.230  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:34.244  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:34.824  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:26:34.832  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:26:34.847  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:36.149  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:26:36.154  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:26:36.166  INFO 7908 --- [grpc-default-executor-28] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:12.931  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:12.940  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:12.958  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:13.586  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:13.594  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:13.610  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:15.786  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:15.791  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:15.807  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:16.312  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:16.320  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:16.336  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:17.507  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:17.513  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:17.528  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:17.882  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:17.890  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:17.905  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:19.818  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:19.826  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:19.841  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:20.185  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:20.192  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:20.205  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:21.703  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:21.709  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:21.722  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:22.895  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:22.900  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:22.914  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:23.486  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:23.492  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:23.507  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:25.048  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:25.056  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:25.072  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:26.683  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:26.688  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:26.703  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:27.332  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:27.339  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:27.354  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:28.764  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:28.770  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:28.785  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:29.155  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:29.161  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:29.173  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:33.404  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:33.410  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:33.424  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:34.482  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:34.488  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:34.501  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:35.930  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:35.940  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:35.953  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:36.727  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:36.733  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:36.745  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:37.462  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:37.468  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:37.487  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:37.977  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:37.984  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:37.998  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:38.541  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:38.547  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:38.558  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:39.472  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:30:39.480  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:39.493  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:30:53.243  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:30:53.248  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:30:53.263  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:31:13.400  INFO 7908 --- [grpc-default-executor-29] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 13:31:13.402  INFO 7908 --- [grpc-default-executor-30] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 13:31:13.402  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 13:31:16.163  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:31:16.171  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:31:16.183  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:31:17.333  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:31:17.343  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:31:17.354  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:31:18.281  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:31:18.286  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:31:18.302  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:31:19.292  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 13:31:19.297  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 13:31:19.310  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 13:31:19.741  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 13:31:19.747  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 13:31:19.760  INFO 7908 --- [grpc-default-executor-31] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 16:50:26.177  INFO 7908 --- [grpc-default-executor-32] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 16:56:06.394  INFO 7908 --- [grpc-default-executor-33] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: Analysis Service now running
+2019-04-22 16:56:15.211  INFO 7908 --- [grpc-default-executor-33] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 16:56:17.054  INFO 7908 --- [grpc-default-executor-33] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 16:58:11.998  INFO 7908 --- [grpc-default-executor-34] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 16:58:12.004  INFO 7908 --- [grpc-default-executor-35] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 16:58:12.004  INFO 7908 --- [grpc-default-executor-36] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 16:59:46.826  INFO 7908 --- [grpc-default-executor-37] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 16:59:55.623  INFO 7908 --- [grpc-default-executor-37] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 16:59:55.660  INFO 7908 --- [grpc-default-executor-37] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 16:59:55.720  INFO 7908 --- [grpc-default-executor-37] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 17:09:39.949  INFO 7908 --- [grpc-default-executor-38] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:09:39.950  INFO 7908 --- [grpc-default-executor-40] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:09:39.950  INFO 7908 --- [grpc-default-executor-39] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:19:28.597  INFO 7908 --- [grpc-default-executor-41] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:19:28.597  INFO 7908 --- [grpc-default-executor-42] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:19:28.598  INFO 7908 --- [grpc-default-executor-43] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:21:03.334  INFO 7908 --- [grpc-default-executor-45] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:21:03.335  INFO 7908 --- [grpc-default-executor-44] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:21:03.336  INFO 7908 --- [grpc-default-executor-46] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:22:03.439  INFO 7908 --- [grpc-default-executor-49] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:22:03.439  INFO 7908 --- [grpc-default-executor-47] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:22:03.439  INFO 7908 --- [grpc-default-executor-48] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:23:06.604  INFO 7908 --- [grpc-default-executor-51] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:23:06.604  INFO 7908 --- [grpc-default-executor-52] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:23:06.604  INFO 7908 --- [grpc-default-executor-50] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:23:24.630  INFO 7908 --- [grpc-default-executor-51] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:23:24.630  INFO 7908 --- [grpc-default-executor-50] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:23:24.630  INFO 7908 --- [grpc-default-executor-52] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:23:30.650  INFO 7908 --- [grpc-default-executor-52] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:23:30.650  INFO 7908 --- [grpc-default-executor-51] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:23:30.650  INFO 7908 --- [grpc-default-executor-50] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:28:19.860  INFO 7908 --- [grpc-default-executor-53] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:28:19.860  INFO 7908 --- [grpc-default-executor-54] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:28:19.861  INFO 7908 --- [grpc-default-executor-55] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:28:52.810  INFO 7908 --- [grpc-default-executor-54] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:28:52.810  INFO 7908 --- [grpc-default-executor-55] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:28:52.810  INFO 7908 --- [grpc-default-executor-53] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:29:29.697  INFO 7908 --- [grpc-default-executor-55] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:29:29.697  INFO 7908 --- [grpc-default-executor-54] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:29:29.697  INFO 7908 --- [grpc-default-executor-54] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:29:44.157  INFO 7908 --- [grpc-default-executor-54] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 17:29:44.174  INFO 7908 --- [grpc-default-executor-54] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 17:29:44.203  INFO 7908 --- [grpc-default-executor-54] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 17:29:45.468  INFO 7908 --- [grpc-default-executor-54] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 17:29:45.555  INFO 7908 --- [grpc-default-executor-54] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 17:29:45.605  INFO 7908 --- [grpc-default-executor-54] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 17:30:59.759  INFO 7908 --- [grpc-default-executor-56] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:30:59.777  INFO 7908 --- [grpc-default-executor-57] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:30:59.778  INFO 7908 --- [grpc-default-executor-58] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:31:26.719  INFO 7908 --- [grpc-default-executor-57] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:31:26.719  INFO 7908 --- [grpc-default-executor-58] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:31:26.719  INFO 7908 --- [grpc-default-executor-56] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:31:41.193  INFO 7908 --- [grpc-default-executor-57] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:31:41.193  INFO 7908 --- [grpc-default-executor-58] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:31:41.193  INFO 7908 --- [grpc-default-executor-56] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:33:53.747  INFO 7908 --- [grpc-default-executor-59] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:33:53.748  INFO 7908 --- [grpc-default-executor-61] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:33:53.749  INFO 7908 --- [grpc-default-executor-60] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:34:10.341  INFO 7908 --- [grpc-default-executor-59] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:34:10.341  INFO 7908 --- [grpc-default-executor-60] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:34:10.341  INFO 7908 --- [grpc-default-executor-61] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:34:33.466  INFO 7908 --- [grpc-default-executor-61] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:34:33.466  INFO 7908 --- [grpc-default-executor-60] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:34:33.466  INFO 7908 --- [grpc-default-executor-59] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:34:38.316  INFO 7908 --- [grpc-default-executor-59] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:34:38.316  INFO 7908 --- [grpc-default-executor-61] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:34:38.316  INFO 7908 --- [grpc-default-executor-60] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:34:58.502  INFO 7908 --- [grpc-default-executor-61] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:34:58.502  INFO 7908 --- [grpc-default-executor-60] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:34:58.502  INFO 7908 --- [grpc-default-executor-59] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:39:42.311  INFO 7908 --- [grpc-default-executor-62] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:39:42.314  INFO 7908 --- [grpc-default-executor-64] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:39:42.314  INFO 7908 --- [grpc-default-executor-63] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:40:09.332  INFO 7908 --- [grpc-default-executor-62] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:40:09.332  INFO 7908 --- [grpc-default-executor-64] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:40:09.332  INFO 7908 --- [grpc-default-executor-63] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:43:44.826  INFO 7908 --- [grpc-default-executor-65] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:43:44.826  INFO 7908 --- [grpc-default-executor-66] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:43:44.827  INFO 7908 --- [grpc-default-executor-68] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:44:32.769  INFO 7908 --- [grpc-default-executor-65] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:44:32.769  INFO 7908 --- [grpc-default-executor-68] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:44:32.769  INFO 7908 --- [grpc-default-executor-66] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:44:53.265  INFO 7908 --- [grpc-default-executor-66] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:44:53.265  INFO 7908 --- [grpc-default-executor-65] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:44:53.265  INFO 7908 --- [grpc-default-executor-68] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:46:24.584  INFO 7908 --- [grpc-default-executor-70] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:46:24.584  INFO 7908 --- [grpc-default-executor-69] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:46:24.585  INFO 7908 --- [grpc-default-executor-71] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:48:07.255  INFO 7908 --- [grpc-default-executor-73] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:48:07.255  INFO 7908 --- [grpc-default-executor-72] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:48:07.256  INFO 7908 --- [grpc-default-executor-74] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:48:16.784  INFO 7908 --- [grpc-default-executor-72] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:48:16.784  INFO 7908 --- [grpc-default-executor-74] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:48:16.784  INFO 7908 --- [grpc-default-executor-73] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:48:56.199  INFO 7908 --- [grpc-default-executor-74] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:48:56.199  INFO 7908 --- [grpc-default-executor-72] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:48:56.199  INFO 7908 --- [grpc-default-executor-73] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:49:13.474  INFO 7908 --- [grpc-default-executor-74] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:49:13.474  INFO 7908 --- [grpc-default-executor-73] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:49:13.474  INFO 7908 --- [grpc-default-executor-72] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:49:21.136  INFO 7908 --- [grpc-default-executor-72] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 17:51:26.457  INFO 7908 --- [grpc-default-executor-75] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:51:26.457  INFO 7908 --- [grpc-default-executor-77] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:51:26.457  INFO 7908 --- [grpc-default-executor-76] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:51:43.470  INFO 7908 --- [grpc-default-executor-76] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 17:52:42.159  INFO 7908 --- [grpc-default-executor-79] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:52:42.159  INFO 7908 --- [grpc-default-executor-76] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:52:42.159  INFO 7908 --- [grpc-default-executor-78] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:52:48.768  INFO 7908 --- [grpc-default-executor-78] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 17:54:18.588  INFO 7908 --- [grpc-default-executor-81] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:54:18.588  INFO 7908 --- [grpc-default-executor-80] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:54:18.591  INFO 7908 --- [grpc-default-executor-80] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 17:54:18.589  INFO 7908 --- [grpc-default-executor-81] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:54:25.874  INFO 7908 --- [grpc-default-executor-81] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 17:54:42.154  INFO 7908 --- [grpc-default-executor-81] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:54:42.154  INFO 7908 --- [grpc-default-executor-83] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:54:42.154  INFO 7908 --- [grpc-default-executor-80] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:54:47.113  INFO 7908 --- [grpc-default-executor-83] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 17:56:26.624  INFO 7908 --- [grpc-default-executor-85] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 17:56:26.624  INFO 7908 --- [grpc-default-executor-84] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:56:26.625  INFO 7908 --- [grpc-default-executor-86] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 17:56:40.298  INFO 7908 --- [grpc-default-executor-86] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:01:22.008  INFO 7908 --- [grpc-default-executor-87] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:01:22.008  INFO 7908 --- [grpc-default-executor-88] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 18:01:22.008  INFO 7908 --- [grpc-default-executor-89] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:01:31.897  INFO 7908 --- [grpc-default-executor-89] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:11:49.716  INFO 7908 --- [grpc-default-executor-90] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 18:11:49.717  INFO 7908 --- [grpc-default-executor-92] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:11:49.716  INFO 7908 --- [grpc-default-executor-91] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:11:57.230  INFO 7908 --- [grpc-default-executor-91] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:11:57.253  INFO 7908 --- [grpc-default-executor-91] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:11:57.305  INFO 7908 --- [grpc-default-executor-91] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:13:57.258  INFO 7908 --- [grpc-default-executor-93] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:13:57.291  INFO 7908 --- [grpc-default-executor-93] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:13:57.345  INFO 7908 --- [grpc-default-executor-93] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:14:31.348  INFO 7908 --- [grpc-default-executor-93] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:14:31.349  INFO 7908 --- [grpc-default-executor-95] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 18:14:31.348  INFO 7908 --- [grpc-default-executor-94] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:14:36.748  INFO 7908 --- [grpc-default-executor-94] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:14:36.761  INFO 7908 --- [grpc-default-executor-94] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:14:36.783  INFO 7908 --- [grpc-default-executor-94] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:16:36.769  INFO 7908 --- [grpc-default-executor-96] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:16:36.798  INFO 7908 --- [grpc-default-executor-96] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:16:36.840  INFO 7908 --- [grpc-default-executor-96] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:17:30.107  INFO 7908 --- [grpc-default-executor-96] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 18:17:36.987  INFO 7908 --- [grpc-default-executor-96] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 18:17:36.988  INFO 7908 --- [grpc-default-executor-98] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:17:36.988  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:17:42.808  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:17:42.824  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:17:42.899  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:17:57.475  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 18:17:57.505  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 18:17:57.536  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:17:59.179  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 18:17:59.189  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 18:17:59.214  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:18:00.042  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 18:18:00.048  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 18:18:00.076  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:18:03.442  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 18:18:03.458  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 18:18:03.482  INFO 7908 --- [grpc-default-executor-97] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:23:11.121  INFO 7908 --- [grpc-default-executor-99] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: Analysis Service now running
+2019-04-22 18:23:18.643  INFO 7908 --- [grpc-default-executor-99] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 18:23:18.646  INFO 7908 --- [grpc-default-executor-100] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:23:18.649  INFO 7908 --- [grpc-default-executor-101] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:23:21.532  INFO 7908 --- [grpc-default-executor-101] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 18:23:21.947  INFO 7908 --- [grpc-default-executor-101] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 18:23:31.020  INFO 7908 --- [grpc-default-executor-99] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:23:31.020  INFO 7908 --- [grpc-default-executor-101] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 18:23:31.020  INFO 7908 --- [grpc-default-executor-100] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:23:52.587  INFO 7908 --- [grpc-default-executor-100] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:23:52.654  INFO 7908 --- [grpc-default-executor-100] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:23:52.754  INFO 7908 --- [grpc-default-executor-100] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:24:48.431  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:24:48.431  INFO 7908 --- [grpc-default-executor-100] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 18:24:48.431  INFO 7908 --- [grpc-default-executor-103] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 18:24:48.465  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:24:48.477  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:24:48.502  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:24:57.109  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 18:24:57.182  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 18:24:57.232  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:24:58.400  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 18:24:58.407  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 18:24:58.435  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:25:02.653  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:25:02.666  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:25:02.687  INFO 7908 --- [grpc-default-executor-102] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:26:38.578  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 18:26:38.589  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 18:26:38.613  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:26:39.894  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 18:26:39.900  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 18:26:39.920  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:26:40.566  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 18:26:40.578  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 18:26:40.597  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:26:44.764  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:26:44.771  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:26:44.791  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:27:02.662  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:27:02.677  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:27:02.694  INFO 7908 --- [grpc-default-executor-104] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:28:44.776  INFO 7908 --- [grpc-default-executor-105] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:28:44.798  INFO 7908 --- [grpc-default-executor-105] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:28:44.842  INFO 7908 --- [grpc-default-executor-105] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:33:17.117  INFO 7908 --- [grpc-default-executor-106] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 18:33:41.233  INFO 7908 --- [grpc-default-executor-106] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 18:33:58.866  INFO 7908 --- [grpc-default-executor-106] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:33:58.930  INFO 7908 --- [grpc-default-executor-106] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:33:59.023  INFO 7908 --- [grpc-default-executor-106] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:35:29.039  INFO 7908 --- [grpc-default-executor-107] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 18:35:53.020  INFO 7908 --- [grpc-default-executor-107] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:35:53.033  INFO 7908 --- [grpc-default-executor-107] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:35:53.113  INFO 7908 --- [grpc-default-executor-107] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:37:53.031  INFO 7908 --- [grpc-default-executor-108] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:37:53.057  INFO 7908 --- [grpc-default-executor-108] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:37:53.122  INFO 7908 --- [grpc-default-executor-108] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:40:59.920  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 18:41:54.219  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:41:54.283  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:41:54.354  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:42:41.249  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 18:42:41.260  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 18:42:41.287  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:42:44.100  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:42:44.112  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:42:44.131  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:43:07.964  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:43:07.973  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:43:08.003  INFO 7908 --- [grpc-default-executor-109] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:44:44.114  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:44:44.141  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:44:44.180  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:45:35.284  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 18:46:04.804  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:46:04.813  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:46:04.881  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:46:58.297  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:46:58.307  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:46:58.332  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:47:44.005  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:47:44.013  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:48:21.884  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 18:49:19.324  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 18:49:19.335  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 18:49:19.387  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:49:20.427  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 18:49:20.439  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 18:49:20.473  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:49:24.614  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:49:24.624  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:49:24.645  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:50:09.867  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 18:50:22.159  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 18:50:22.166  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 18:50:22.217  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:50:23.182  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 18:50:23.192  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 18:50:23.221  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 18:50:27.367  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:50:27.374  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:50:27.402  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:50:27.448  INFO 7908 --- [grpc-default-executor-111] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 18:52:27.385  INFO 7908 --- [grpc-default-executor-112] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:52:27.412  INFO 7908 --- [grpc-default-executor-112] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:52:27.438  INFO 7908 --- [grpc-default-executor-112] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:52:27.449  INFO 7908 --- [grpc-default-executor-112] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 18:55:19.194  INFO 7908 --- [grpc-default-executor-113] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:55:19.207  INFO 7908 --- [grpc-default-executor-113] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:55:23.029  INFO 7908 --- [grpc-default-executor-113] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 18:55:31.714  INFO 7908 --- [grpc-default-executor-113] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:55:31.722  INFO 7908 --- [grpc-default-executor-113] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:55:31.772  INFO 7908 --- [grpc-default-executor-113] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:55:31.928  INFO 7908 --- [grpc-default-executor-113] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 18:55:31.934  INFO 7908 --- [grpc-default-executor-113] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 18:56:45.075  INFO 7908 --- [grpc-default-executor-114] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 18:57:19.201  INFO 7908 --- [grpc-default-executor-114] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 18:57:19.232  INFO 7908 --- [grpc-default-executor-114] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 18:57:19.315  INFO 7908 --- [grpc-default-executor-114] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 18:57:19.434  INFO 7908 --- [grpc-default-executor-114] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: false
+2019-04-22 18:57:19.448  INFO 7908 --- [grpc-default-executor-114] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 18:57:19.449  INFO 7908 --- [grpc-default-executor-115] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:01:25.957  INFO 7908 --- [grpc-default-executor-116] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 19:01:41.217  INFO 7908 --- [grpc-default-executor-116] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:01:41.227  INFO 7908 --- [grpc-default-executor-116] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:01:41.304  INFO 7908 --- [grpc-default-executor-116] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:01:41.534  INFO 7908 --- [grpc-default-executor-116] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:01:41.554  INFO 7908 --- [grpc-default-executor-116] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:01:41.556  INFO 7908 --- [grpc-default-executor-116] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 19:02:32.264  INFO 7908 --- [grpc-default-executor-117] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:02:32.271  INFO 7908 --- [grpc-default-executor-117] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:02:32.291  INFO 7908 --- [grpc-default-executor-117] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:02:32.307  INFO 7908 --- [grpc-default-executor-117] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:02:32.319  INFO 7908 --- [grpc-default-executor-117] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:02:32.322  INFO 7908 --- [grpc-default-executor-116] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 19:03:41.230  INFO 7908 --- [grpc-default-executor-118] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:03:41.256  INFO 7908 --- [grpc-default-executor-118] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:03:41.311  INFO 7908 --- [grpc-default-executor-118] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:03:41.328  INFO 7908 --- [grpc-default-executor-118] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:03:41.341  INFO 7908 --- [grpc-default-executor-118] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:03:41.346  INFO 7908 --- [grpc-default-executor-118] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 19:06:27.457  INFO 7908 --- [grpc-default-executor-119] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 19:07:26.339  INFO 7908 --- [grpc-default-executor-119] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:07:26.350  INFO 7908 --- [grpc-default-executor-119] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:07:26.420  INFO 7908 --- [grpc-default-executor-119] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:07:26.853  INFO 7908 --- [grpc-default-executor-119] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:19:20.453  INFO 7908 --- [grpc-default-executor-120] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 19:19:20.453  INFO 7908 --- [grpc-default-executor-121] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 19:19:20.453  INFO 7908 --- [grpc-default-executor-122] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 19:19:27.860  INFO 7908 --- [grpc-default-executor-122] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:19:27.874  INFO 7908 --- [grpc-default-executor-122] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:19:27.899  INFO 7908 --- [grpc-default-executor-122] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:19:27.924  INFO 7908 --- [grpc-default-executor-122] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:24:44.961  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 19:25:02.632  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:25:02.693  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:25:02.843  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:25:02.897  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:25:05.187  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 19:25:05.209  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 19:25:05.240  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:25:06.325  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 19:25:06.334  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 19:25:06.359  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:25:07.058  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 19:25:07.069  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 19:25:07.089  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:25:12.075  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:25:12.085  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:25:12.105  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:25:12.125  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:25:14.819  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 19:25:14.825  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 19:25:14.845  INFO 7908 --- [grpc-default-executor-123] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:26:24.457  INFO 7908 --- [grpc-default-executor-124] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 19:26:30.674  INFO 7908 --- [grpc-default-executor-124] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:26:30.737  INFO 7908 --- [grpc-default-executor-124] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:26:30.785  INFO 7908 --- [grpc-default-executor-124] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:26:30.807  INFO 7908 --- [grpc-default-executor-124] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:28:37.866  INFO 7908 --- [grpc-default-executor-125] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 19:28:47.884  INFO 7908 --- [grpc-default-executor-125] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:28:47.893  INFO 7908 --- [grpc-default-executor-125] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:28:47.954  INFO 7908 --- [grpc-default-executor-125] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:28:47.973  INFO 7908 --- [grpc-default-executor-125] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {testing:test}
+2019-04-22 19:28:48.170  INFO 7908 --- [grpc-default-executor-125] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:35:45.169  INFO 7908 --- [grpc-default-executor-126] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 19:35:57.407  INFO 7908 --- [grpc-default-executor-126] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:35:57.468  INFO 7908 --- [grpc-default-executor-126] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:35:57.500  INFO 7908 --- [grpc-default-executor-126] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:35:57.508  INFO 7908 --- [grpc-default-executor-126] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 19:35:57.547  INFO 7908 --- [grpc-default-executor-126] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:37:06.272  INFO 7908 --- [grpc-default-executor-127] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 19:37:06.283  INFO 7908 --- [grpc-default-executor-127] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 19:37:06.306  INFO 7908 --- [grpc-default-executor-127] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:37:07.510  INFO 7908 --- [grpc-default-executor-127] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 19:37:07.517  INFO 7908 --- [grpc-default-executor-127] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 19:37:07.534  INFO 7908 --- [grpc-default-executor-127] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:37:10.310  INFO 7908 --- [grpc-default-executor-127] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 19:37:10.318  INFO 7908 --- [grpc-default-executor-127] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 19:37:10.337  INFO 7908 --- [grpc-default-executor-127] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:39:52.657  INFO 7908 --- [grpc-default-executor-128] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 19:42:10.288  INFO 7908 --- [grpc-default-executor-129] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:42:10.301  INFO 7908 --- [grpc-default-executor-129] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:42:10.353  INFO 7908 --- [grpc-default-executor-129] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:42:10.371  INFO 7908 --- [grpc-default-executor-129] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 19:42:10.520  INFO 7908 --- [grpc-default-executor-129] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:43:11.872  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 19:43:21.491  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:43:21.503  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:43:21.704  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:43:21.720  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 19:43:21.835  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:43:21.845  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:43:21.847  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 19:43:23.236  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 19:43:23.246  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 19:43:23.269  INFO 7908 --- [grpc-default-executor-130] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:46:30.640  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 19:46:30.651  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 19:46:30.679  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:46:31.958  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 19:46:31.970  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 19:46:31.996  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:46:33.328  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 19:46:33.335  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 19:46:33.354  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 19:46:37.218  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:46:37.228  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:46:37.250  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:46:37.260  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 19:46:37.276  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:46:37.288  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:46:37.290  INFO 7908 --- [grpc-default-executor-131] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 19:49:41.041  INFO 7908 --- [grpc-default-executor-132] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 19:49:50.453  INFO 7908 --- [grpc-default-executor-132] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:49:50.463  INFO 7908 --- [grpc-default-executor-132] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:49:50.517  INFO 7908 --- [grpc-default-executor-132] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:49:50.532  INFO 7908 --- [grpc-default-executor-132] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 19:49:50.726  INFO 7908 --- [grpc-default-executor-132] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:49:50.739  INFO 7908 --- [grpc-default-executor-132] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:49:50.753  INFO 7908 --- [grpc-default-executor-132] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:49:50.766  INFO 7908 --- [grpc-default-executor-133] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 19:51:19.903  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 19:51:23.913  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:51:23.923  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:51:23.981  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:51:23.999  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 19:51:24.124  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:51:24.138  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:51:24.150  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:51:24.155  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 19:51:49.123  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:51:49.130  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:51:49.152  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:51:49.163  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 19:51:49.178  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:51:49.186  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:51:49.196  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:51:49.201  INFO 7908 --- [grpc-default-executor-134] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 19:54:18.037  INFO 7908 --- [grpc-default-executor-135] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 19:54:29.579  INFO 7908 --- [grpc-default-executor-135] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:54:29.589  INFO 7908 --- [grpc-default-executor-135] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:54:29.649  INFO 7908 --- [grpc-default-executor-135] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:54:29.662  INFO 7908 --- [grpc-default-executor-135] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 19:54:29.764  INFO 7908 --- [grpc-default-executor-135] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:54:29.775  INFO 7908 --- [grpc-default-executor-135] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:54:29.786  INFO 7908 --- [grpc-default-executor-135] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:54:29.793  INFO 7908 --- [grpc-default-executor-135] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 19:55:52.205  INFO 7908 --- [grpc-default-executor-136] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 19:57:34.133  INFO 7908 --- [grpc-default-executor-137] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 19:57:46.084  INFO 7908 --- [grpc-default-executor-137] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:57:46.092  INFO 7908 --- [grpc-default-executor-137] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:57:46.166  INFO 7908 --- [grpc-default-executor-137] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:57:46.192  INFO 7908 --- [grpc-default-executor-137] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 19:57:46.411  INFO 7908 --- [grpc-default-executor-137] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:57:46.434  INFO 7908 --- [grpc-default-executor-137] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: add {"testing":"test"}
+2019-04-22 19:57:46.444  INFO 7908 --- [grpc-default-executor-137] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: add 
+2019-04-22 19:57:46.479  INFO 7908 --- [grpc-default-executor-137] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 19:58:51.449  INFO 7908 --- [grpc-default-executor-138] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 19:58:55.445  INFO 7908 --- [grpc-default-executor-138] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 19:58:55.503  INFO 7908 --- [grpc-default-executor-138] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 19:58:55.516  INFO 7908 --- [grpc-default-executor-138] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: 
+2019-04-22 19:58:55.550  INFO 7908 --- [grpc-default-executor-138] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 19:58:55.558  INFO 7908 --- [grpc-default-executor-138] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 19:58:55.569  INFO 7908 --- [grpc-default-executor-138] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 19:58:55.582  INFO 7908 --- [grpc-default-executor-138] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: add {"testing":"test"}
+2019-04-22 19:58:55.588  INFO 7908 --- [grpc-default-executor-138] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: add 
+2019-04-22 19:58:55.602  INFO 7908 --- [grpc-default-executor-138] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 20:00:10.483  INFO 7908 --- [grpc-default-executor-139] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 20:00:10.483  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : UI: : Listening on port 3000
+2019-04-22 20:00:10.484  INFO 7908 --- [grpc-default-executor-141] com.cit.micro.logger.service.GrpcLogger  : UI: : Creating connection to Analysis service
+2019-04-22 20:00:22.952  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 20:00:22.969  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 20:00:22.982  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 20:00:23.005  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 20:00:23.013  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 20:00:23.039  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 20:00:23.059  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: add {"testing":"test"}
+2019-04-22 20:00:23.071  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: add test1
+2019-04-22 20:00:23.091  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 20:00:29.766  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 20:00:29.782  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 20:00:29.794  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 20:00:29.815  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 20:00:29.825  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 20:00:29.836  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 20:00:29.867  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: add {"testing":"test"}
+2019-04-22 20:00:29.876  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: add test1
+2019-04-22 20:00:29.895  INFO 7908 --- [grpc-default-executor-140] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 20:02:37.908  INFO 7908 --- [grpc-default-executor-142] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 20:02:45.198  INFO 7908 --- [grpc-default-executor-142] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 20:02:45.210  INFO 7908 --- [grpc-default-executor-142] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 20:02:45.220  INFO 7908 --- [grpc-default-executor-142] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 20:02:45.271  INFO 7908 --- [grpc-default-executor-142] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 20:02:45.284  INFO 7908 --- [grpc-default-executor-142] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 20:02:45.395  INFO 7908 --- [grpc-default-executor-142] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 20:02:45.441  INFO 7908 --- [grpc-default-executor-142] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 20:09:26.056  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 20:09:26.072  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 20:09:26.110  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 20:09:27.972  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 20:09:27.981  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 20:09:28.007  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 20:09:29.988  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 20:09:29.994  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 20:09:30.012  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 20:09:30.620  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 20:09:30.627  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 20:09:30.646  INFO 7908 --- [grpc-default-executor-143] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 20:32:27.412  INFO 7908 --- [grpc-default-executor-144] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 20:32:41.956  INFO 7908 --- [grpc-default-executor-144] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 20:32:41.964  INFO 7908 --- [grpc-default-executor-144] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 20:32:41.975  INFO 7908 --- [grpc-default-executor-144] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 20:32:42.043  INFO 7908 --- [grpc-default-executor-144] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 20:32:42.067  INFO 7908 --- [grpc-default-executor-144] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 20:32:42.291  INFO 7908 --- [grpc-default-executor-144] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 20:32:42.316  INFO 7908 --- [grpc-default-executor-144] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Added data
+2019-04-22 20:32:42.326  INFO 7908 --- [grpc-default-executor-144] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 1
+2019-04-22 20:32:42.360  INFO 7908 --- [grpc-default-executor-144] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:29:47.064  INFO 7908 --- [grpc-default-executor-145] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:29:52.809  INFO 7908 --- [grpc-default-executor-145] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:29:52.858  INFO 7908 --- [grpc-default-executor-145] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:29:52.883  INFO 7908 --- [grpc-default-executor-145] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 21:29:52.926  INFO 7908 --- [grpc-default-executor-145] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:29:52.941  INFO 7908 --- [grpc-default-executor-145] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:29:53.080  INFO 7908 --- [grpc-default-executor-145] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:29:53.100  INFO 7908 --- [grpc-default-executor-145] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Added data
+2019-04-22 21:29:53.112  INFO 7908 --- [grpc-default-executor-145] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 1
+2019-04-22 21:29:53.156  INFO 7908 --- [grpc-default-executor-145] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:30:53.334  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:31:07.148  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:31:07.161  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:31:07.171  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test121
+2019-04-22 21:31:07.240  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:31:07.280  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:31:07.512  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:31:07.539  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Added data
+2019-04-22 21:31:07.551  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 1
+2019-04-22 21:31:07.566  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE text LIKE ? and uid=?
+2019-04-22 21:31:07.605  INFO 7908 --- [grpc-default-executor-146] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:33:08.569  INFO 7908 --- [grpc-default-executor-147] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:33:20.836  INFO 7908 --- [grpc-default-executor-147] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:33:20.846  INFO 7908 --- [grpc-default-executor-147] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:33:20.859  INFO 7908 --- [grpc-default-executor-147] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test121
+2019-04-22 21:33:20.908  INFO 7908 --- [grpc-default-executor-147] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:33:20.925  INFO 7908 --- [grpc-default-executor-147] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:33:21.027  INFO 7908 --- [grpc-default-executor-147] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:33:21.042 ERROR 7908 --- [grpc-default-executor-147] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test121
+2019-04-22 21:33:21.052 ERROR 7908 --- [grpc-default-executor-147] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:33:21.061  INFO 7908 --- [grpc-default-executor-147] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE text LIKE ? and uid=?
+2019-04-22 21:33:21.113  INFO 7908 --- [grpc-default-executor-148] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:36:06.609  INFO 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:36:25.836  INFO 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:36:33.312  INFO 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:36:33.324  INFO 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:36:33.335  INFO 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 21:36:33.421  INFO 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:36:33.446  INFO 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:36:33.669  INFO 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:36:33.698 ERROR 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test1
+2019-04-22 21:36:33.712 ERROR 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:36:33.727  INFO 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE text LIKE ? AND uid=?
+2019-04-22 21:36:33.759  INFO 7908 --- [grpc-default-executor-149] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:40:46.607  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:40:52.532  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:40:52.541  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:40:52.552  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 21:40:52.623  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:40:52.646  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:40:52.875  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:40:52.900 ERROR 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test1
+2019-04-22 21:40:52.911 ERROR 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:40:52.923  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE text LIKE ? AND uid=?
+2019-04-22 21:40:52.964  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:41:30.460  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:41:30.468  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:41:30.477  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 21:41:39.218  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:41:44.436  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:41:44.445  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:41:44.456  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 21:41:44.528  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:41:44.557  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:41:44.792  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:41:44.819 ERROR 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test1
+2019-04-22 21:41:44.834 ERROR 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:41:44.847  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE text LIKE ? AND uid=?
+2019-04-22 21:41:44.887  INFO 7908 --- [grpc-default-executor-150] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:43:24.286  INFO 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:43:29.859  INFO 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:43:29.870  INFO 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:43:29.879  INFO 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 21:43:29.926  INFO 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:43:29.941  INFO 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:43:29.979  INFO 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:43:29.991 ERROR 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test1
+2019-04-22 21:43:29.998 ERROR 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:43:30.006  INFO 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE text LIKE ? AND uid=?
+2019-04-22 21:43:30.027  INFO 7908 --- [grpc-default-executor-151] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:44:36.773  INFO 7908 --- [grpc-default-executor-152] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:44:36.783  INFO 7908 --- [grpc-default-executor-152] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:44:36.798  INFO 7908 --- [grpc-default-executor-152] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test12
+2019-04-22 21:44:36.828  INFO 7908 --- [grpc-default-executor-152] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:44:36.851  INFO 7908 --- [grpc-default-executor-152] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:44:36.868  INFO 7908 --- [grpc-default-executor-152] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:44:36.883 ERROR 7908 --- [grpc-default-executor-152] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test12
+2019-04-22 21:44:36.891 ERROR 7908 --- [grpc-default-executor-152] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:44:36.901  INFO 7908 --- [grpc-default-executor-152] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE text LIKE ? AND uid=?
+2019-04-22 21:44:36.920  INFO 7908 --- [grpc-default-executor-152] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:46:22.465  INFO 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:46:27.401  INFO 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:46:27.411  INFO 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:46:27.419  INFO 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test12
+2019-04-22 21:46:27.482  INFO 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:46:27.499  INFO 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:46:27.534  INFO 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:46:27.545 ERROR 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test12
+2019-04-22 21:46:27.551 ERROR 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:46:27.558  INFO 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE text LIKE ? AND uid=?
+2019-04-22 21:46:27.576  INFO 7908 --- [grpc-default-executor-153] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:47:29.362  INFO 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:47:34.355  INFO 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:47:34.365  INFO 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:47:34.376  INFO 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test12
+2019-04-22 21:47:34.430  INFO 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:47:34.446  INFO 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:47:34.481  INFO 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:47:34.503 ERROR 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test12
+2019-04-22 21:47:34.515 ERROR 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:47:34.528  INFO 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE text LIKE ? AND uid=?
+2019-04-22 21:47:34.566  INFO 7908 --- [grpc-default-executor-154] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:49:16.934  INFO 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:49:25.677  INFO 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:49:25.688  INFO 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:49:25.695  INFO 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test12
+2019-04-22 21:49:25.758  INFO 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:49:25.775  INFO 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:49:25.813  INFO 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:49:25.826 ERROR 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test12
+2019-04-22 21:49:25.833 ERROR 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:49:25.839  INFO 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE  uid=?
+2019-04-22 21:49:25.858  INFO 7908 --- [grpc-default-executor-155] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:52:43.433  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:52:50.529  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:52:50.540  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:52:50.548  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test12
+2019-04-22 21:52:50.611  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:52:50.627  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:52:50.677  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:52:50.694 ERROR 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test12
+2019-04-22 21:52:50.703 ERROR 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:52:50.711  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE uid=?
+2019-04-22 21:52:50.732  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:53:10.873  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:53:10.879  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:53:10.889  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1234
+2019-04-22 21:53:10.912  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:53:10.925  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:53:10.937  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:53:10.948 ERROR 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test1234
+2019-04-22 21:53:10.957 ERROR 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:53:10.970  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE uid=?
+2019-04-22 21:53:10.984  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 26
+2019-04-22 21:53:11.001  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:53:11.004  INFO 7908 --- [grpc-default-executor-156] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 21:54:11.356  INFO 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:54:17.326  INFO 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:54:17.336  INFO 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:54:17.345  INFO 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1234
+2019-04-22 21:54:17.405  INFO 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:54:17.423  INFO 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:54:17.465  INFO 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:54:17.479 ERROR 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test1234
+2019-04-22 21:54:17.485 ERROR 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:54:17.492  INFO 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE text LIKE ?
+2019-04-22 21:54:17.511  INFO 7908 --- [grpc-default-executor-157] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 21:58:41.294  INFO 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 21:58:44.759  INFO 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 21:58:44.770  INFO 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 21:58:44.776  INFO 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1234
+2019-04-22 21:58:44.834  INFO 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 21:58:44.853  INFO 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:58:44.892  INFO 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 21:58:44.908 ERROR 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: test1234
+2019-04-22 21:58:44.919 ERROR 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 21:58:44.932  INFO 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE uid LIKE ?
+2019-04-22 21:58:44.972  INFO 7908 --- [grpc-default-executor-158] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 22:01:15.692  INFO 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 22:01:22.555  INFO 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 22:01:22.566  INFO 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 22:01:22.573  INFO 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1234
+2019-04-22 22:01:22.635  INFO 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 22:01:22.655  INFO 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 22:01:22.710  INFO 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 22:01:22.731  INFO 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE uid = ? AND text LIKE ?
+2019-04-22 22:01:22.744 ERROR 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Could not find ID for new entry
+2019-04-22 22:01:22.757  INFO 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 22:01:22.778  INFO 7908 --- [grpc-default-executor-159] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 22:01:22.785  INFO 7908 --- [grpc-default-executor-160] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 22:06:04.328  INFO 7908 --- [grpc-default-executor-161] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 22:06:04.337  INFO 7908 --- [grpc-default-executor-161] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 22:06:04.344  INFO 7908 --- [grpc-default-executor-161] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1234
+2019-04-22 22:06:04.369  INFO 7908 --- [grpc-default-executor-161] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 22:06:04.378  INFO 7908 --- [grpc-default-executor-161] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 22:06:04.391  INFO 7908 --- [grpc-default-executor-161] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 22:06:04.405  INFO 7908 --- [grpc-default-executor-161] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE uid = ? AND text LIKE ?
+2019-04-22 22:06:04.418 ERROR 7908 --- [grpc-default-executor-161] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Could not find ID for new entry
+2019-04-22 22:06:04.427  INFO 7908 --- [grpc-default-executor-161] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 22:06:04.438  INFO 7908 --- [grpc-default-executor-161] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 22:06:04.440  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 22:06:24.957  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 22:06:24.963  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 22:06:24.971  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 22:06:24.993  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 22:06:25.004  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 22:06:25.017  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 22:06:25.033  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: SELECT id FROM stored_values WHERE uid = ? AND text LIKE ?
+2019-04-22 22:06:25.057 ERROR 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Could not find ID for new entry
+2019-04-22 22:06:25.070  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 22:06:25.084  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 22:06:25.089  INFO 7908 --- [grpc-default-executor-162] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 22:16:28.524  INFO 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
+2019-04-22 22:16:33.968  INFO 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 22:16:33.977  INFO 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 22:16:33.989  INFO 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 22:16:34.028  INFO 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 22:16:34.040  INFO 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 22:16:34.070  INFO 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Count of exists
+2019-04-22 22:16:34.076  INFO 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 22:16:34.092 ERROR 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Could not find ID for new entry
+2019-04-22 22:16:34.099  INFO 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 22:16:34.111  INFO 7908 --- [grpc-default-executor-163] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 22:16:34.115  INFO 7908 --- [grpc-default-executor-164] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 23:23:01.083  INFO 7908 --- [grpc-default-executor-165] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 23:23:01.141  INFO 7908 --- [grpc-default-executor-165] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 23:23:01.155  INFO 7908 --- [grpc-default-executor-165] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 23:23:01.258  INFO 7908 --- [grpc-default-executor-165] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 23:23:01.276  INFO 7908 --- [grpc-default-executor-165] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 23:23:01.317  INFO 7908 --- [grpc-default-executor-165] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Count of exists
+2019-04-22 23:23:01.329  INFO 7908 --- [grpc-default-executor-165] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 23:23:01.353 ERROR 7908 --- [grpc-default-executor-165] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Could not find ID for new entry
+2019-04-22 23:23:01.367  INFO 7908 --- [grpc-default-executor-165] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 23:23:01.390  INFO 7908 --- [grpc-default-executor-165] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 23:23:01.397  INFO 7908 --- [grpc-default-executor-166] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 23:24:25.081  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 23:24:25.153  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 23:24:25.186  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:24:34.619  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 23:24:34.627  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 23:24:34.650  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:24:35.313  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 23:24:35.323  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 23:24:35.341  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:24:37.218  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 23:24:37.225  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 23:24:37.241  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:24:41.672  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 23:24:41.681  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 23:24:41.700  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:24:42.425  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 23:24:42.430  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 23:24:42.446  INFO 7908 --- [grpc-default-executor-167] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:31:25.442  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 23:31:25.451  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 23:31:25.477  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:31:26.109  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 23:31:26.121  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 23:31:26.138  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:31:29.612  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 23:31:29.617  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 23:31:29.623  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 23:31:29.638  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 23:31:29.657  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"testing":"test"}
+2019-04-22 23:31:29.669  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Count of exists
+2019-04-22 23:31:29.679  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 23:31:29.699 ERROR 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Could not find ID for new entry
+2019-04-22 23:31:29.711  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 23:31:29.723  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 23:31:29.728  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 23:31:30.344  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 23:31:30.349  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 23:31:30.363  INFO 7908 --- [grpc-default-executor-168] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:32:35.325  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 23:32:41.791  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 23:32:41.802  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 23:32:41.822  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:32:42.534  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 23:32:42.589  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 23:32:42.776  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:32:44.872  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 23:32:44.884  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 23:32:44.917  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test1
+2019-04-22 23:32:44.956  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 23:32:44.967  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 
+2019-04-22 23:32:44.978  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Count of exists
+2019-04-22 23:32:44.987  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 23:32:45.318  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 23:32:46.241  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 23:32:46.246  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 23:32:46.261  INFO 7908 --- [grpc-default-executor-169] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:34:08.977  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 23:34:18.200  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to add new subscription to db
+2019-04-22 23:34:18.268  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Adding new Subscription
+2019-04-22 23:34:18.287  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: test123456
+2019-04-22 23:34:18.335  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Adding 
+2019-04-22 23:34:18.346  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: {"null":"null"}
+2019-04-22 23:34:18.360  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Count of exists
+2019-04-22 23:34:18.369  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 23:34:18.384 ERROR 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Could not find ID for new entry
+2019-04-22 23:34:18.392  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: 0
+2019-04-22 23:34:18.399  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Completed add
+2019-04-22 23:34:18.407  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: sent???
+2019-04-22 23:34:19.400  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 23:34:19.410  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 23:34:19.427  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:34:32.780  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get UID values from server
+2019-04-22 23:34:32.789  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Getting list of UID
+2019-04-22 23:34:32.816  INFO 7908 --- [grpc-default-executor-170] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:35:58.307  INFO 7908 --- [grpc-default-executor-171] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 23:35:58.317  INFO 7908 --- [grpc-default-executor-171] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 23:35:58.340  INFO 7908 --- [grpc-default-executor-172] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:36:18.740  INFO 7908 --- [grpc-default-executor-172] com.cit.micro.logger.service.GrpcLogger  : UI: : attempting to get all values from server
+2019-04-22 23:36:18.746  INFO 7908 --- [grpc-default-executor-172] com.cit.micro.logger.service.GrpcLogger  : Analysis_Service: 2019-04-22: getting everything 
+2019-04-22 23:36:18.760  INFO 7908 --- [grpc-default-executor-172] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: getting everything 
+2019-04-22 23:41:09.850  INFO 7908 --- [grpc-default-executor-173] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 23:47:19.377  INFO 7908 --- [grpc-default-executor-174] com.cit.micro.logger.service.GrpcLogger  : Manager_Service: 2019-04-22: Manager service now running 
+2019-04-22 23:48:36.091  INFO 7908 --- [grpc-default-executor-175] com.cit.micro.logger.service.GrpcLogger  : Data_Service: 2019-04-22: Data service now running 
