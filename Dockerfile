@@ -7,4 +7,4 @@ FROM java:8-jdk-alpine
 COPY --from=build /home/app/target/logger-0.0.1-SNAPSHOT.jar /usr/local/lib/logger.jar
 WORKDIR /usr/app
 RUN sh -c 'touch logger-0.0.1-SNAPSHOT.jar'
-ENTRYPOINT ["java","-jar","/usr/local/lib/logger.jar"]
+ENTRYPOINT ["java","cmvf", "META-INF/MANIFEST.MF", "-jar","/usr/local/lib/logger.jar"]
