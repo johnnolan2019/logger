@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM zenika/alpine-maven
 
 ENV MAVEN_VERSION 3.2.5
 
