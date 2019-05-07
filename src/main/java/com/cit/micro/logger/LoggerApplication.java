@@ -12,7 +12,9 @@ import java.io.IOException;
 
 @SpringBootApplication
 public class LoggerApplication {
+
     final private static Logger LOGGER = LoggerFactory.getLogger(LoggerApplication.class);
+
     public static void main(String[] args) {
         SpringApplication.run(LoggerApplication.class, args);
         Server server = ServerBuilder
@@ -22,7 +24,7 @@ public class LoggerApplication {
             server.start();
             server.awaitTermination();
         }catch (IOException e){
-            LOGGER.info("bad");
+            LOGGER.error("bad");
         }catch (InterruptedException e){
             LOGGER.error("Not as bad, but not good");
         }

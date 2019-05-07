@@ -23,7 +23,7 @@ public class GrpcLogger extends LoggerGrpc.LoggerImplBase {
     @Override
     public void error (RemoteLog remoteLog, StreamObserver<ReturnBool> responseObserver){
         LOGGER.error(remoteLog.getServiceName() + ": " + remoteLog.getTimeStamp() + ": " +  remoteLog.getMessage());
-        ReturnBool response = ReturnBool.newBuilder().build();
+        ReturnBool response = ReturnBool.newBuilder().setResult(true).build();
         responseObserver.onNext(response);
         responseObserver.onCompleted();
     }
@@ -31,7 +31,7 @@ public class GrpcLogger extends LoggerGrpc.LoggerImplBase {
     @Override
     public void debug (RemoteLog remoteLog, StreamObserver<ReturnBool> responseObserver){
         LOGGER.debug(remoteLog.getServiceName() + ": " + remoteLog.getTimeStamp() + ": " +  remoteLog.getMessage());
-        ReturnBool response = ReturnBool.newBuilder().build();
+        ReturnBool response = ReturnBool.newBuilder().setResult(true).build();
         responseObserver.onNext(response);
         responseObserver.onCompleted();
     }
