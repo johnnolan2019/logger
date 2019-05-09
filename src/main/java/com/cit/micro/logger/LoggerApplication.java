@@ -13,20 +13,21 @@ import java.io.IOException;
 @SpringBootApplication
 public class LoggerApplication {
 
-    final private static Logger LOGGER = LoggerFactory.getLogger(LoggerApplication.class);
+    final private static Logger logger = LoggerFactory.getLogger(LoggerApplication.class);
+    final private static int port = 6565;
 
     public static void main(String[] args) {
         SpringApplication.run(LoggerApplication.class, args);
         Server server = ServerBuilder
-                .forPort(6565)
+                .forPort(port)
                 .addService(new GrpcLogger()).build();
         try{
             server.start();
             server.awaitTermination();
         }catch (IOException e){
-            LOGGER.error("bad");
+            logger.error("Manager Service threw IO exception");
         }catch (InterruptedException e){
-            LOGGER.error("Not as bad, but not good");
+            logger.error("Manager Service threw Interrupted exception");
         }
     }
 
